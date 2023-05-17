@@ -3,7 +3,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,6 +13,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,3 +178,12 @@ button.four {
     height: 30px;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
