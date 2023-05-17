@@ -43,7 +43,6 @@ a {
 .slice-one {
     background-color: #1F2937;
     color: #F9FAF8;
-    flex: 1;
     display: flex;
     justify-content: space-between;
     padding: 128px 32px;
@@ -75,4 +74,44 @@ button.one {
     padding: 6px 24px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.slice-two {
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+img.two {
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-text {
+    text-align: center;
+    width: 150px;
+    color: #1F2937;
 }
